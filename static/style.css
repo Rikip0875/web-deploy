@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f9fc; /* Light background */
+    color: #333; /* Dark text for contrast */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #003366; /* Dark blue */
+}
+
+.navbar-brand,
+.nav-link {
+    color: #ffffff !important; /* White text */
+}
+
+.nav-link:hover {
+    color: #b3d4ff !important; /* Light blue on hover */
+}
+
+/* Main Container Styles */
+.container {
+    margin-top: 30px;
+}
+
+/* Card Styles */
+.member-card {
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.member-card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.member-photo {
+    border-radius: 8px 8px 0 0; /* Rounded top corners */
+}
+
+/* Card Body Styles */
+.card-body {
+    background-color: #ffffff; /* White background for cards */
+    border-radius: 0 0 8px 8px; /* Rounded bottom corners */
+    padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #003366; /* Dark blue */
+    color: #ffffff; /* White text */
+    padding: 15px 0;
+}
+
+footer .text-center {
+    margin: 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .member-card {
+        margin-bottom: 20px; /* Add space between cards */
+    }
+}
